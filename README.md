@@ -7,8 +7,8 @@
 1 passes to 2, 2 passes to 3
 
 # Routers, controller#action, params, templates
-1. displays the root for the site, controller#action = welcome#index, template = index.html.erb (plus any other sub templates for links)
-2. displays a list of gifs, controller#action = gifs#index, template = default
+1. displays the root for the site, controller#action = welcome#index, template = index.html.erb (for the welcome controller class)
+2. displays a list of gifs, controller#action = gifs#index, template = index.html.erb (for the gif controller class)
 3. displays a specific gif, controller#action = gifs#view, params = gif, template = view.html.erb (from the gif directory in 'app')
 
 Three controllers exist for the application (at least)
