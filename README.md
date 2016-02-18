@@ -20,5 +20,6 @@ Three controllers exist for the application (at least)
 The welcome and gifs controllers inherit from the application controller.
 The param for /gifs/23463-cats-jumping should be @gif = params[:gif]
 
-A layout is like a default template for the application or a set of classes. Whereas a template is a more specific erb file for rendering content. For example, the index page (welcome#index) will use the application's layout (application.html.erb) but it will also probably have a template file (index.html.erb) specific to the welcome controller.
+# Layout vs. Template
+A layout is like a default template for the application (or a set of classes). Whereas a template is a more specific erb file for rendering content. For example, the index page (welcome#index) will use the application's layout (application.html.erb) (e.g. to render a generic application navigation bar) but it will also use a template file (index.html.erb) specific to the welcome controller (e.g. to render the remainder of the page's content).
 
