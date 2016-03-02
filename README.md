@@ -1,3 +1,24 @@
+# Ruby on Rails Basics
+## Reading and Writing: Rails Request Cycle
+###### Due Friday, February 19, 2016
+The rails request cycle (from url to HTML) is fairly complicated; I'd like you to write a blog article defining how a URL goes from being a URL to returning customized HTML.
+
+For example, use the following three URLs:
+
+1. /
+2. /gifs
+3. /gifs/23463-cats-jumping
+
+I'd like you to cover the router, the controller, action, params, and templates, describing who passes to what, in what order, and how it all works together on a conceptual level. Cover the difference between a "layout" and a "template"
+
+For resources:
+
+* [http://guides.rubyonrails.org/routing.html](http://guides.rubyonrails.org/routing.html)
+* [http://guides.rubyonrails.org/action_controller_overview.html](http://guides.rubyonrails.org/action_controller_overview.html)
+* [http://guides.rubyonrails.org/layouts_and_rendering.html](http://guides.rubyonrails.org/layouts_and_rendering.html)
+* 
+
+# Submission
 ## hw09-intro-to-rails
 
 #URLs: summary information
